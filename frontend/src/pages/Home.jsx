@@ -1,17 +1,34 @@
-export default function Home() {
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-    return (
+export default function Home(){
 
-        <div className="container">
+return(
 
-            <h1>Lottery Sambad</h1>
+<>
 
-            <h2>Today's Result</h2>
+<Header/>
 
-            <p>Welcome to Lottery Sambad.</p>
+<div className="container">
 
-        </div>
+<h1 style={{marginTop:"40px"}}>
 
-    )
+Today's Lottery Result
+
+</h1>
+
+<p>
+
+Latest Draw Results will appear here.
+
+</p>
+
+</div>
+
+<Footer/>
+
+</>
+
+)
 
 }
