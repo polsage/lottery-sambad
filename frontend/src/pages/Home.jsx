@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import ResultCard from "../components/ResultCard";
+import SearchBox from "../components/SearchBox";
 
 export default function Home() {
 
@@ -11,7 +12,7 @@ export default function Home() {
       <Header />
 
       <Hero />
-
+<SearchBox />
       <div
         className="container"
         style={{
