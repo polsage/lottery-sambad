@@ -1,0 +1,13 @@
+export default function Search(){
+
+    return(
+
+        <div className="container">
+
+            <h1>Search Result</h1>
+
+        </div>
+
+    )
+
+}
